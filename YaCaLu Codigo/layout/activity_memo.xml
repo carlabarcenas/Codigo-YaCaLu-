@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="org.utng.app.yacalu.MemoActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimaryDark"
+                android:hint="@string/Points"
+                android:textSize="20sp"
+                android:layout_marginLeft="10dp"/>
+            <EditText
+                android:id="@+id/et_point"
+                android:layout_width="35dp"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:text="0"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimaryDark"
+                android:text="@string/intents"
+                android:textSize="20sp"
+                android:layout_marginLeft="10dp"/>
+            <EditText
+                android:id="@+id/et_intents"
+                android:layout_width="35dp"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:text="0"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="20sp"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_new"
+                android:hint="@string/start"
+                android:textSize="20sp"
+                android:layout_marginLeft="10sp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+            <ImageButton
+                android:background="@drawable/ic_memfond" android:id="@+id/btn_attend"
+                android:layout_width="@dimen/ancho" android:layout_height="@dimen/alto"
+                android:layout_weight="1"/>
+            <ImageButton
+                android:background="@drawable/ic_memfond" android:id="@+id/btn_buy"
+                android:layout_width="@dimen/ancho" android:layout_height="@dimen/alto"
+                android:layout_weight="1"/>
+            <ImageButton
+                android:background="@drawable/ic_memfond" android:id="@+id/btn_call"
+                android:layout_width="@dimen/ancho" android:layout_height="@dimen/alto"
+                android:layout_weight="1"/>
+            <ImageButton
+                android:background="@drawable/ic_memfond" android:id="@+id/btn_care"
+                android:layout_width="@dimen/ancho" android:layout_height="@dimen/alto"
+                android:layout_weight="1"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+            <ImageButton
+                android:background="@drawable/ic_memfond" android:id="@+id/btn_celebration"
+                android:layout_width="@dimen/ancho" android:layout_height="@dimen/alto"
+                android:layout_weight="1"/>
+            <ImageButton
+                android:background="@drawable/ic_memfond" android:id="@+id/btn_chatch"
+                android:layout_width="@dimen/ancho" android:layout_height="@dimen/alto"
+                android:layout_weight="1"/>
+            <ImageButton
+                android:background="@drawable/ic_memfond" android:id="@+id/btn_cook"
+                android:layout_width="@dimen/ancho" android:layout_height="@dimen/alto"
+                android:layout_weight="1"/>
+            <ImageButton
+                android:background="@drawable/ic_memfond" android:id="@+id/btn_drive"
+                android:layout_width="@dimen/ancho" android:layout_height="@dimen/alto"
+                android:layout_weight="1"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+            <ImageButton
+                android:background="@drawable/ic_memfond" android:id="@+id/btn_eat"
+                android:layout_width="@dimen/ancho" android:layout_height="@dimen/alto"
+                android:layout_weight="1"/>
+            <ImageButton
+                android:background="@drawable/ic_memfond" android:id="@+id/btn_listen"
+                android:layout_width="@dimen/ancho" android:layout_height="@dimen/alto"
+                android:layout_weight="1"/>
+            <ImageButton
+                android:background="@drawable/ic_memfond" android:id="@+id/btn_love"
+                android:layout_width="@dimen/ancho" android:layout_height="@dimen/alto"
+                android:layout_weight="1"/>
+            <ImageButton
+                android:background="@drawable/ic_memfond" android:id="@+id/btn_pay"
+                android:layout_width="@dimen/ancho" android:layout_height="@dimen/alto"
+                android:layout_weight="1"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+            <ImageButton
+                android:background="@drawable/ic_memfond" android:id="@+id/btn_save"
+                android:layout_width="@dimen/ancho" android:layout_height="@dimen/alto"
+                android:layout_weight="1"/>
+            <ImageButton
+                android:background="@drawable/ic_memfond" android:id="@+id/btn_share"
+                android:layout_width="@dimen/ancho" android:layout_height="@dimen/alto"
+                android:layout_weight="1"/>
+            <ImageButton
+                android:background="@drawable/ic_memfond" android:id="@+id/btn_sleep"
+                android:layout_width="@dimen/ancho" android:layout_height="@dimen/alto"
+                android:layout_weight="1"/>
+            <ImageButton
+                android:background="@drawable/ic_memfond" android:id="@+id/btn_talk"
+                android:layout_width="@dimen/ancho" android:layout_height="@dimen/alto"
+                android:layout_weight="1"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+            <ImageButton
+                android:background="@drawable/ic_memfond" android:id="@+id/btn_win"
+                android:layout_width="@dimen/ancho" android:layout_height="@dimen/alto"
+                android:layout_weight="1"/>
+            <ImageButton
+                android:background="@drawable/ic_memfond" android:id="@+id/btn_jump"
+                android:layout_width="@dimen/ancho" android:layout_height="@dimen/alto"
+                android:layout_weight="1"/>
+            <ImageButton
+                android:background="@drawable/ic_memfond" android:id="@+id/btn_run"
+                android:layout_width="@dimen/ancho" android:layout_height="@dimen/alto"
+                android:layout_weight="1"/>
+            <ImageButton
+                android:background="@drawable/ic_memfond" android:id="@+id/btn_ride"
+                android:layout_width="@dimen/ancho" android:layout_height="@dimen/alto"
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

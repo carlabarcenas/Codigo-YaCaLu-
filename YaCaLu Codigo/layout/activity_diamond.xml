@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/ic_rt"
+    tools:context=".figuresgeometric.DiamondActivity">
+
+
+    <Button
+        android:background="@android:color/transparent"
+        android:hint="@string/diamond"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+
+    <ImageButton
+        style="@style/tx_diamond"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"
+        android:background="@drawable/ic_dia"
+        android:layout_width="350dp"
+        android:layout_height="300dp"
+        android:id="@+id/btn_diamond"
+        />
+
+    <Button
+
+        style="@style/tx_diamond"
+        android:id="@+id/btn_nextd"
+        android:text="@string/next"
+        android:background="@drawable/shape_g"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+
+        />
+
+
+
+    <Button
+        android:id="@+id/btn_previousd"
+        style="@style/tx_diamond"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/shape_g"
+        android:text="previous"
+        android:layout_marginTop="9dp"
+        />
+
+
+
+</LinearLayout>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/ic_rt"
+    tools:context="org.utng.app.yacalu.MusicUrlActivity">
+
+    <Button
+        android:background="@drawable/shape_green"
+        android:id="@+id/btn_navegation"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="letter of songs differnt " />
+
+    <Button
+        android:background="@drawable/shape_green"
+        android:id="@+id/btn_navegacion_letter"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="letter of songs "
+        />
+
+    <Button
+        android:background="@drawable/shape_green"
+        android:layout_width="300dp"
+        android:id="@+id/btn_songs"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="letter of songs English lyrics"
+        />
+    <Button
+        android:background="@drawable/shape_green"
+        android:layout_width="300dp"
+        android:id="@+id/btn_trasnslate"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="to trasnslate your songs"/>
+
+    <Button
+        android:background="@drawable/shape_green"
+        android:layout_width="300dp"
+        android:id="@+id/btn_letter_songs"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="letter of songs"
+        />
+
+    <Button
+        android:background="@drawable/shape_green"
+        android:layout_width="300dp"
+        android:id="@+id/btn_of"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="letter of songs"/>
+
+    <Button
+
+        android:background="@drawable/shape_green"
+        android:id="@+id/btn_letter_of_songs"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="letter of songs"/>
+
+
+</LinearLayout>
